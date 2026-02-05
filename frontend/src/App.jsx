@@ -1,9 +1,16 @@
-import React from 'react'
+import { useGeolocation } from "../hooks/locations";
 
-function App() {
+export default function Home() {
+  const { location, loading, error } = useGeolocation();
+
+  if (loading) return <p>Getting your location...</p>;
+  if (error) return <p>Error: {error}</p>;
+
   return (
-    <div>App</div>
-  )
+    <div>
+      <h2>Your Location</h2>
+      <p>Latitude: {location.lat}</p>
+      <p>Longitude: {location.lng}</p>
+    </div>
+  );
 }
-
-export default App
