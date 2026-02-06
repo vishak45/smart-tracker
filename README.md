@@ -8,6 +8,8 @@ A location-based Points of Interest (POI) finder that helps you discover nearby 
 
 ![Smart Tracker Screenshot](screenshots/op.jpeg)
 
+> **Note:** 🟢: Your Location.
+> **Note:** 🔵: Point of Interest.
 ## Features
 
 - **Geolocation**: Automatically detects your current location
