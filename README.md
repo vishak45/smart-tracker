@@ -1,6 +1,12 @@
 # Smart Tracker
 
+> **Note:** This is a working prototype. The final application will be an enhanced version with additional features and improvements.
+
 A location-based Points of Interest (POI) finder that helps you discover nearby places based on your interests. Built with React, Leaflet, and Express.js.
+
+## Screenshot
+
+![Smart Tracker Screenshot](screenshots/op.jpeg)
 
 ## Features
 
