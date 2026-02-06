@@ -13,7 +13,7 @@ export async function fetchPlaces({ lat, lng, interest }) {
     (
       ${tags
         .map(
-          (tag) => `node${tag}(around:1500,${lat},${lng});`
+          (tag) => `node${tag}(around:5000,${lat},${lng});`
         )
         .join("\n")}
     );
