@@ -88,7 +88,10 @@ export default function Home() {
             {INTERESTS.map((item) => (
               <button
                 key={item.value}
-                onClick={() => setInterest(item.value)}
+                onClick={() => {
+                  setInterest(null);
+                  setPlaces([]);
+                  setInterest(item.value)}}
                 className={`px-5 py-2.5 rounded-full font-medium transition-all duration-300 transform hover:scale-105 ${
                   interest === item.value
                     ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg shadow-indigo-500/30"
