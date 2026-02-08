@@ -117,6 +117,23 @@ Fetches nearby places based on location and interest.
 - `cafe` - Coffee shops and cafes
 - `park` - Parks and recreational areas
 - `hospital` - Hospitals and medical facilities
+- `exercise` - Gyms, sports centres, swimming pools
+- `study` - Libraries, colleges, universities, schools
+- `shopping` - Supermarkets, malls, convenience and specialty stores
+- `leisure` - Playgrounds, gardens, pitches, nature reserves, water parks
+- `finance` - Banks, ATMs, currency exchange
+- `entertainment` - Cinemas, theatres, nightclubs, arts centres, casinos
+- `transport` - Bus stations, taxi stands, ferries, rentals, parking, fuel, charging
+- `health` - Clinics, pharmacies, dentists, doctors, veterinary
+- `worship` - Churches, mosques, synagogues, temples
+- `government` - Town halls, courthouses, police, fire stations, post offices, embassies
+- `accommodation` - Hotels, hostels, motels, guest houses, apartments, campsites
+- `toilet` - Public toilets
+- `water` - Drinking water, fountains, water points, showers
+- `charging` - EV charging stations
+- `recycling` - Recycling points
+- `waste` - Waste bins
+- `car` - Car wash, rentals, sharing, fuel, parking
 
 **Example:**
 ```
