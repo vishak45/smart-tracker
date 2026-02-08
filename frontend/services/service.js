@@ -2,5 +2,22 @@ export const INTERESTS = [
   { label: "Food Spots", value: "food" },
   { label: "Cafes", value: "cafe" },
   { label: "Parks", value: "park" },
-  { label: "Hospitals", value: "hospital" }
+  { label: "Hospitals", value: "hospital" },
+  { label: "Exercise", value: "exercise" },
+  { label: "Study", value: "study" },
+  { label: "Shopping", value: "shopping" },
+  { label: "Leisure", value: "leisure" },
+  { label: "Finance", value: "finance" },
+  { label: "Entertainment", value: "entertainment" },
+  { label: "Transport", value: "transport" },
+  { label: "Health Services", value: "health" },
+  { label: "Places of Worship", value: "worship" },
+  { label: "Government Services", value: "government" },
+  { label: "Accommodation", value: "accommodation" },
+  { label: "Toilets", value: "toilet" },
+  { label: "Water Points", value: "water" },
+  { label: "Charging Stations", value: "charging" },
+  { label: "Recycling", value: "recycling" },
+  { label: "Waste Bins", value: "waste" },
+  { label: "Car Services", value: "car" }
 ];
