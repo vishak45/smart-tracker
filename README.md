@@ -6,7 +6,7 @@ A location-based Points of Interest (POI) finder that helps you discover nearby 
 
 ## Screenshot
 
-![Smart Tracker Screenshot](screenshots/op.jpeg)
+![Smart Tracker Screenshot](screenshots/op2.jpeg)
 
 > **Note:** 🟢: Your Location.
 > 🔵: Point of Interest.
